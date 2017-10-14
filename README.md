@@ -1,0 +1,2 @@
+# cogs
+host for cogs
