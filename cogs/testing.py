@@ -10,4 +10,4 @@ class Testing:
         await ctx.send('hello!')
         
 def setup(bot):
-	bot.add_cog(Testing(bot))
+	return bot.add_cog(Testing(bot))
