@@ -7,6 +7,7 @@ class Testing:
        
     @commands.command()
     async def hi(self, ctx):
+        '''This is a test command!'''
         await ctx.send('hello!')
         
 def setup(bot):
